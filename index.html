@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Interface</title>
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <header class="d-flex">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-md-12 col-sm-12">
+            <img
+              src="https://png.pngtree.com/element_pic/00/16/07/115783931601b5c.jpg"
+              alt="Logo"
+              class="logo mx-auto mr-md-auto"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="mt-3">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="input-group">
+              <span class="input-group-text">Upload file: </span>
+              <div class="custom-file">
+                <input id="upload" type="file" class="custom-file-input" />
+                <label class="custom-file-label" for="upload"
+                  >Choose file</label
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="col">
+            <h2>Scanners</h2>
+            <div class="form-check my-3">
+              <input class="form-check-input" type="checkbox" id="mobSF" />
+              <label class="form-check-label" for="mobSF">
+                MobSF
+              </label>
+            </div>
+            <div class="form-check  my-3">
+              <input class="form-check-input" type="checkbox" id="QARK" />
+              <label class="form-check-label" for="QARK">
+                QARK
+              </label>
+            </div>
+            <div class="form-check my-3">
+              <input class="form-check-input" type="checkbox" id="AndroBugs" />
+              <label class="form-check-label" for="AndroBugs">
+                AndroBugs
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="/js/index.js"></script>
+    <script src="./node_modules/jquery/dist/jquery.slim.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
